@@ -1,0 +1,83 @@
+https://dontpad.com/bes_not_t1_22032024
+
+package Hola_mundo;
+
+import java.util.Scanner;
+
+public class Hola {
+
+	public static void main(String[] args) {
+		int a, b, c;
+		Scanner input=new Scanner(System.in);
+// ctrl+shift+o importa automaticamente a classe 
+		a=input.nextInt();
+		b=input.nextInt();
+		c=a+b;
+		
+	//	String teste="Ola Mundo";
+		System.out.println(a + "" + b + "" +c);
+		System.out.println(a + "+" + b + "=" +c);
+
+	}
+
+}
+
+package olaMundo;
+
+import java.util.Scanner;
+
+public class OlaMundo {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a, b, c;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		c=a+b;
+		System.out.println("Soma = "+ c);
+
+	}
+
+}
+
+****************
+
+package olaMundo;
+
+import java.util.Scanner;
+
+public class OlaMundo {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String nm;
+		
+		System.out.println("Oi, sou Computalino. E voce?");
+		nm=sc.nextLine();
+		System.out.println("Bonito nome, "+nm+"!");
+
+	}
+
+}
+
+package Hola_mundo;
+
+import java.util.Scanner;
+
+public class Hola {
+
+	public static void main(String[] args) {
+		int a, m, d, dv;
+		Scanner input=new Scanner(System.in); // ctrl+shift+o importa automaticamente a classe 
+		System.out.println("Digite sua idade em anos, meses e dias");
+		a=input.nextInt();
+		m=input.nextInt();
+		d=input.nextInt();
+		dv=a*360+m*30+d;
+				
+		System.out.println("Sua idade em dias eh, "+dv+"!");
+		
+
+	}
+
+}
